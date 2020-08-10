@@ -1,0 +1,15 @@
+a,b,c=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+count=0
+count1=0
+if(a%c==0):
+    count=a//c
+else:
+    count=(a//c)+1
+if(b%c==0):
+    count1=b//c
+else:
+    count1=(b//c)+1
+print(count*count1)
